@@ -1,9 +1,9 @@
 # AgentProof
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-8A2BE2)](https://github.com/sponsors/AkuchiS)
-[![License](https://img.shields.io/github/license/AkuchiS/agentproof?color=8A2BE2)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/AkuchiS/agentproof?color=8A2BE2)](https://github.com/AkuchiS/agentproof/commits)
-[![Stars](https://img.shields.io/github/stars/AkuchiS/agentproof?color=8A2BE2)](https://github.com/AkuchiS/agentproof/stargazers)
+[![License](https://img.shields.io/github/license/AkuchiS/AgentProof?color=8A2BE2)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/AkuchiS/AgentProof?color=8A2BE2)](https://github.com/AkuchiS/AgentProof/commits)
+[![Stars](https://img.shields.io/github/stars/AkuchiS/AgentProof?color=8A2BE2)](https://github.com/AkuchiS/AgentProof/stargazers)
 
 **Verifiable AI-build governance you run on yourself.** Four governance modules —
 an autonomy gate, build discipline, model fitness, and agent-diff code review —
@@ -12,8 +12,8 @@ own pass count. Not advice. Not a PDF. A runnable artifact whose trust mechanism
 a reproducible exit code on *your* machine.
 
 ```bash
-git clone https://github.com/AkuchiS/agentproof.git
-cd agentproof
+git clone https://github.com/AkuchiS/AgentProof.git
+cd AgentProof
 python3 verify.py        # or: make verify
 ```
 
