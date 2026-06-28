@@ -1,4 +1,4 @@
-# GOVERNANCE-IN-A-BOX -- Verifiable Edition
+# AgentProof -- Verifiable Edition
 # The whole product in one command. No deps, no network, stdlib Python 3 only.
 
 .PHONY: verify selftests clean

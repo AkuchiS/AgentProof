@@ -15,7 +15,7 @@ classified AUTO / ESCALATE / DEFER before it can run unattended.
   - goal_vs_task.verify() blocks "done-at-80%": a task is only complete with an
     explicit win_condition that is actually met.
 
-Stdlib-only, no box wiring (later gated step). Self-test: `python3 dime_autonomy_gate.py`.
+Stdlib-only, no box wiring (later gated step). Self-test: `python3 autonomy_gate.py`.
 """
 import re
 

@@ -5,8 +5,7 @@ is documentation *for* the runnable code in `modules/` — not standalone advice
 and not the thing being sold. If a sentence here describes a behavior, there is a
 selftest case in the corresponding module that checks it (run `python3 verify.py`).
 
-Source of the method: DIME's internal Decision & Communication Curriculum
-(`DIME_DECISION_CURRICULUM.md`). Every rule below is traceable to a module file
+Source of the method: AkuchiS's internal decision & communication curriculum. Every rule below is traceable to a module file
 and to a selftest assertion.
 
 ---
@@ -39,7 +38,7 @@ fit / defensibility vs frontier labs. Sum → `BUILD · RESTRUCTURE · REUSE/BUY
 
 ---
 
-## 2. Autonomy gate + goal-vs-task verifier  → `modules/dime_autonomy_gate.py`  (selftest 19/19)
+## 2. Autonomy gate + goal-vs-task verifier  → `modules/autonomy_gate.py`  (selftest 19/19)
 
 Before any irreversible/external action, score
 `{reversibility, cost_of_failure, process_maturity, requirement_stability}` →
@@ -56,7 +55,7 @@ What the code actually enforces is what the selftest prints: **19/19**.
 
 ---
 
-## 3. Build discipline — the laziness ladder  → `modules/dime_build_discipline.py`  (selftest 22/22)
+## 3. Build discipline — the laziness ladder  → `modules/build_discipline.py`  (selftest 22/22)
 
 Steer agent code generation away from over-engineering by preferring, in order:
 **skip > stdlib > native feature > one-liner > minimal new code.** The module:
@@ -74,7 +73,7 @@ selftest prints: **22/22**.
 
 ---
 
-## 4. Model-fitness scorecard + sovereignty gate  → `modules/dime_model_fitness.py`  (selftest: all passed)
+## 4. Model-fitness scorecard + sovereignty gate  → `modules/model_fitness.py`  (selftest: all passed)
 
 Per candidate model: a fixed in-house battery (scratch-build · env-from-zero ·
 deep-research+tables · visual job · long agentic-coding run) scored on
@@ -122,9 +121,9 @@ whole, not to be re-sold as standalone advice.
 
 | Method section | Runnable module | Proof |
 |---|---|---|
-| Autonomy gate + goal verifier | `dime_autonomy_gate.py` | selftest **19/19** |
-| Laziness ladder / build discipline | `dime_build_discipline.py` | selftest **22/22** |
-| Model fitness + sovereignty | `dime_model_fitness.py` | selftest **all passed** |
+| Autonomy gate + goal verifier | `autonomy_gate.py` | selftest **19/19** |
+| Laziness ladder / build discipline | `build_discipline.py` | selftest **22/22** |
+| Model fitness + sovereignty | `model_fitness.py` | selftest **all passed** |
 | Agent-diff codereview | `aegis_codereview.py` | selftest **23/23** |
 | Kill-gate rubric | *(documented, applied by judgment)* | no selftest — stated honestly |
 | Allocation / communication | *(doctrine)* | no selftest — stated honestly |

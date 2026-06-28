@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-verify.py - the trust mechanism for GOVERNANCE-IN-A-BOX (Verifiable Edition).
+verify.py - the trust mechanism for AgentProof (Verifiable Edition).
 
 Runs the real selftest of each governance module ON YOUR MACHINE, parses the
 pass count each module actually prints, and exits 0 only if every module passes.
@@ -29,9 +29,9 @@ MODULES_DIR = os.path.join(HERE, "modules")
 # Each pattern is anchored to the EXACT string the module emits in its selftest
 # so the printed claim is pinned to a real integer, never asserted by this file.
 MODULES = [
-    ("dime_autonomy_gate.py",   "autonomy gate",     r"SELFTEST:\s*PASS\s*\((\d+)/(\d+)\s*passed\)"),
-    ("dime_build_discipline.py","build discipline",  r"SELFTEST:\s*PASS\s*\((\d+)/(\d+)\s*passed\)"),
-    ("dime_model_fitness.py",   "model fitness",     r"SELFTEST:\s*all passed"),
+    ("autonomy_gate.py",   "autonomy gate",     r"SELFTEST:\s*PASS\s*\((\d+)/(\d+)\s*passed\)"),
+    ("build_discipline.py","build discipline",  r"SELFTEST:\s*PASS\s*\((\d+)/(\d+)\s*passed\)"),
+    ("model_fitness.py",   "model fitness",     r"SELFTEST:\s*all passed"),
     ("aegis_codereview.py",     "aegis codereview",  r"SELFTEST:\s*PASS\s*\((\d+)/(\d+)\s*passed\)"),
 ]
 
@@ -63,7 +63,7 @@ def run_one(filename, pattern):
 
 def main():
     print("=" * 64)
-    print("GOVERNANCE-IN-A-BOX -- verify.py")
+    print("AgentProof -- verify.py")
     print("Running the REAL selftests on THIS machine. No network. Stdlib only.")
     print("python:", sys.version.split()[0])
     print("=" * 64)

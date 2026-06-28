@@ -14,11 +14,11 @@ gate — less new code means smaller blast radius and easier review.
     the "+++" file header) and flags over=True only when the add count exceeds the
     ceiling AND no "CEILING:" justification comment is present in the diff.
 
-Stdlib-only, no box wiring (later gated step). Self-test: `python3 dime_build_discipline.py`.
+Stdlib-only, no box wiring (later gated step). Self-test: `python3 build_discipline.py`.
 """
 
 BUILD_PROMPT = """\
-You are the DIME build sub-agent. Write the LEAST code that satisfies the
+You are the build sub-agent. Write the LEAST code that satisfies the
 requirement. Climb the laziness ladder and stop at the first rung that works —
 do not reach for a higher rung out of habit.
 
