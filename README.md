@@ -1,5 +1,6 @@
 # AgentProof
 
+[![tests](https://github.com/AkuchiS/AgentProof/actions/workflows/test.yml/badge.svg)](https://github.com/AkuchiS/AgentProof/actions/workflows/test.yml)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-8A2BE2)](https://github.com/sponsors/AkuchiS)
 [![License](https://img.shields.io/github/license/AkuchiS/AgentProof?color=8A2BE2)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/AkuchiS/AgentProof?color=8A2BE2)](https://github.com/AkuchiS/AgentProof/commits)
